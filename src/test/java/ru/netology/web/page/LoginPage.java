@@ -26,10 +26,5 @@ public class LoginPage {
 
     }
 
-    public static void cleaning() {
-        loginField.doubleClick().sendKeys(Keys.BACK_SPACE);
-        passwordField.doubleClick().sendKeys(Keys.BACK_SPACE);
-    }
-
 }
 
